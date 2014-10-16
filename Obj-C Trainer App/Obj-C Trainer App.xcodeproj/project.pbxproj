@@ -14,6 +14,7 @@
 		C7896FE319EFB37700761F4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7896FE219EFB37700761F4C /* Images.xcassets */; };
 		C7896FE619EFB37700761F4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7896FE419EFB37700761F4C /* LaunchScreen.xib */; };
 		C7896FF219EFB37700761F4C /* Obj_C_Trainer_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7896FF119EFB37700761F4C /* Obj_C_Trainer_AppTests.m */; };
+		C7896FFD19EFB66800761F4C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7896FFC19EFB66800761F4C /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C7896FEB19EFB37700761F4C /* Obj-C Trainer AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Obj-C Trainer AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7896FF019EFB37700761F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7896FF119EFB37700761F4C /* Obj_C_Trainer_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Obj_C_Trainer_AppTests.m; sourceTree = "<group>"; };
+		C7896FFB19EFB66800761F4C /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C7896FFC19EFB66800761F4C /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,7 @@
 			children = (
 				C7896FD919EFB37700761F4C /* AppDelegate.h */,
 				C7896FDA19EFB37700761F4C /* AppDelegate.m */,
-				C7896FDC19EFB37700761F4C /* ViewController.h */,
-				C7896FDD19EFB37700761F4C /* ViewController.m */,
+				C7896FFE19EFB67800761F4C /* View Controllers */,
 				C7896FDF19EFB37700761F4C /* Main.storyboard */,
 				C7896FE219EFB37700761F4C /* Images.xcassets */,
 				C7896FE419EFB37700761F4C /* LaunchScreen.xib */,
@@ -117,6 +119,17 @@
 				C7896FF019EFB37700761F4C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7896FFE19EFB67800761F4C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7896FDC19EFB37700761F4C /* ViewController.h */,
+				C7896FDD19EFB37700761F4C /* ViewController.m */,
+				C7896FFB19EFB66800761F4C /* SWRevealViewController.h */,
+				C7896FFC19EFB66800761F4C /* SWRevealViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				C7896FDE19EFB37700761F4C /* ViewController.m in Sources */,
 				C7896FDB19EFB37700761F4C /* AppDelegate.m in Sources */,
 				C7896FD819EFB37700761F4C /* main.m in Sources */,
+				C7896FFD19EFB66800761F4C /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
