@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+// This would be a good place for a comment
+
 @end
 
 @implementation ViewController
