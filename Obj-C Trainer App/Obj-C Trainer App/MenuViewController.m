@@ -7,6 +7,7 @@
 //
 
 #import "MenuViewController.h"
+#import "SWRevealViewController.h"
 
 @interface MenuViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	
+	self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

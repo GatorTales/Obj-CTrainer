@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SWRevealViewController.h"
 
 @interface AppDelegate ()
 
