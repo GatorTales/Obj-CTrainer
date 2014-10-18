@@ -22,6 +22,8 @@
 		C789701619F06A3400761F4C /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C789701519F06A3400761F4C /* MenuModel.m */; };
 		C789701A19F06A7D00761F4C /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C789701919F06A7D00761F4C /* AboutViewController.m */; };
 		C789701D19F06A9B00761F4C /* RemoveAdsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C789701C19F06A9B00761F4C /* RemoveAdsViewController.m */; };
+		C7C8832719F0ADED00680690 /* Main_iPhoneV2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C8832619F0ADED00680690 /* Main_iPhoneV2.storyboard */; };
+		C7C8832A19F0B5EF00680690 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C8832919F0B5EF00680690 /* MenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		C789701919F06A7D00761F4C /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		C789701B19F06A9B00761F4C /* RemoveAdsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveAdsViewController.h; sourceTree = "<group>"; };
 		C789701C19F06A9B00761F4C /* RemoveAdsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveAdsViewController.m; sourceTree = "<group>"; };
+		C7C8832619F0ADED00680690 /* Main_iPhoneV2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhoneV2.storyboard; sourceTree = "<group>"; };
+		C7C8832819F0B5EF00680690 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		C7C8832919F0B5EF00680690 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,7 @@
 				C7896FD919EFB37700761F4C /* AppDelegate.h */,
 				C7896FDA19EFB37700761F4C /* AppDelegate.m */,
 				C7896FDF19EFB37700761F4C /* Main.storyboard */,
+				C7C8832619F0ADED00680690 /* Main_iPhoneV2.storyboard */,
 				C7896FFF19F066CC00761F4C /* Reveal */,
 				C789700719F0680200761F4C /* Question */,
 				C789700319F0671100761F4C /* Helpers */,
@@ -173,6 +179,8 @@
 			children = (
 				C789701419F06A3400761F4C /* MenuModel.h */,
 				C789701519F06A3400761F4C /* MenuModel.m */,
+				C7C8832819F0B5EF00680690 /* MenuItem.h */,
+				C7C8832919F0B5EF00680690 /* MenuItem.m */,
 				C789701119F0693F00761F4C /* MenuViewController.h */,
 				C789701219F0693F00761F4C /* MenuViewController.m */,
 			);
@@ -296,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7896FE119EFB37700761F4C /* Main.storyboard in Resources */,
+				C7C8832719F0ADED00680690 /* Main_iPhoneV2.storyboard in Resources */,
 				C7896FE619EFB37700761F4C /* LaunchScreen.xib in Resources */,
 				C7896FE319EFB37700761F4C /* Images.xcassets in Resources */,
 			);
@@ -324,6 +333,7 @@
 				C789701019F0689500761F4C /* StatsModel.m in Sources */,
 				C789701A19F06A7D00761F4C /* AboutViewController.m in Sources */,
 				C7896FD819EFB37700761F4C /* main.m in Sources */,
+				C7C8832A19F0B5EF00680690 /* MenuItem.m in Sources */,
 				C789700619F067F400761F4C /* QuestionViewController.m in Sources */,
 				C7896FFD19EFB66800761F4C /* SWRevealViewController.m in Sources */,
 			);
@@ -450,6 +460,7 @@
 				INFOPLIST_FILE = "Obj-C Trainer App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,6 +471,7 @@
 				INFOPLIST_FILE = "Obj-C Trainer App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +528,7 @@
 				C7896FF719EFB37700761F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7896FF819EFB37700761F4C /* Build configuration list for PBXNativeTarget "Obj-C Trainer AppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				C7896FFA19EFB37700761F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

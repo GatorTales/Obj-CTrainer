@@ -19,10 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 	
-	self.view.backgroundColor  = [UIColor purpleColor];
 	[self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 	
-	self.view.backgroundColor = [UIColor blueColor];
 	
 }
 
